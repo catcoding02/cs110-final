@@ -6,20 +6,27 @@
     <style>
      .center-rectangle {
             display: flex;
-            background-color: blue;
             justify-content: center;
             align-items: center;
             width: 20%;
             height: 20%;
         }
+    .button {
+        background-color: blue;
+    }
     </style>
 </head>
 <body>
     <div class="center-rectangle">
         <input id="choice-input">
         </input>
+        <button pys-onClick="my_Choice">
+
+        </button>
         <py-script>
 
+            def my_Choice():
+            
             choice = Element('choice-input').element.value
             if choice == "Dog Print":
                 print("Dog")
