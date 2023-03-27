@@ -4,6 +4,12 @@
     <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
     <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
     <style>
+     .iframe-container {
+        border-color: blueviolet;
+        border: 20px;
+        color: white;
+     }
+     
      .iframe {
             display: flex;
             justify-content: center;
@@ -18,26 +24,7 @@
     </style>
 </head>
 <body>
-    <div class="center-rectangle">
-        <input id="choice-input">
-        </input>
-        <button pys-onClick="my_Choice">
-            Submit
-        </button>
-        <div class="center-rectangle" id="test-output">
-
-        </div>
-        <py-script>
-
-            def my_Choice(*args, **kwargs):
-            
-                choice = Element('choice-input').element.value
-                if choice == "Dog Print":
-                    Element('test-output').element.innerText = "Dog"
-                elif choice == "Cat Print":
-                    Element('test-output').element.innerText = "Cat"
-
-        </py-script>
+    <div class="iframe-container">
         <iframe src="https://replit.com/@catcoding02/HW6test?embed=true" width="600" height="400" />
     </div>
 </body>
