@@ -16,14 +16,12 @@
 </head>
 <body>
     <div class="center-rectangle">
+        <input id="choice-input">
+        </input>
         <py-script>
-            choice = input("Choose Yes or No")
-            if choice == "Yes":
-                print("Dog")
-            else:
-                print("Cat")
-            choice1 = input("Choose Yes or No")
-            if choice == "Yes":
+
+            choice = Element('choice-input').element.value
+            if choice == "Dog Print":
                 print("Dog")
             else:
                 print("Cat")
