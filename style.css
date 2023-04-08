@@ -1,4 +1,6 @@
 .background {
     background: #FFC0CB;
     background-size: cover;
+    left: 0;
+    top: 0;
 }
