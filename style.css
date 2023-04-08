@@ -7,3 +7,9 @@
     background: rgba(255, 5, 113, 0.92);
     color: #fff;
 }
+
+.title-with-glow {
+    font-size: 25vw;
+    color: white;
+    transform: rotate(-30deg);
+}
