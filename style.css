@@ -9,7 +9,7 @@
 }
 
 .title-with-glow {
-    font-size: 25vw;
+    font-size: 3vw;
     color: white;
-    transform: rotate(-30deg);
+    transform: rotate(-15deg);
 }
